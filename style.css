@@ -468,3 +468,11 @@ nav .fa-solid {
     margin-top: -40px;
     display: block;
 }
+
+#submitBtn:disabled {
+    background-color: #ff004f; /* Gray out the button */
+    cursor: not-allowed; /* Change cursor to indicate action is not allowed */
+    opacity: 0.7; /* Make button slightly transparent */
+
+}
+
